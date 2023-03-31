@@ -20,11 +20,7 @@ var data = {
 };
 
 
-/*
 
- Copyright The Closure Library Authors.
- SPDX-License-Identifier: Apache-2.0
-*/
 var ba,ca=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}},da="function"==typeof Object.create?Object.create:function(a){var b=function(){};b.prototype=a;return new b},fa;if("function"==typeof Object.setPrototypeOf)fa=Object.setPrototypeOf;else{var ia;a:{var ja={a:!0},ka={};try{ka.__proto__=ja;ia=ka.a;break a}catch(a){}ia=!1}fa=ia?function(a,b){a.__proto__=b;if(a.__proto__!==b)throw new TypeError(a+" is not extensible");return a}:null}
 var la=fa,ma=function(a,b){a.prototype=da(b.prototype);a.prototype.constructor=a;if(la)la(a,b);else for(var c in b)if("prototype"!=c)if(Object.defineProperties){var d=Object.getOwnPropertyDescriptor(b,c);d&&Object.defineProperty(a,c,d)}else a[c]=b[c];a.Zk=b.prototype},na=this||self,oa=function(a){return a};var pa=function(){},qa=function(a){return"function"===typeof a},h=function(a){return"string"===typeof a},ra=function(a){return"number"===typeof a&&!isNaN(a)},sa=Array.isArray,ta=function(a,b){if(a&&sa(a))for(var c=0;c<a.length;c++)if(a[c]&&b(a[c]))return a[c]},ua=function(a,b){if(!ra(a)||!ra(b)||a>b)a=0,b=2147483647;return Math.floor(Math.random()*(b-a+1)+a)},xa=function(a,b){for(var c=new va,d=0;d<a.length;d++)c.set(a[d],!0);for(var e=0;e<b.length;e++)if(c.get(b[e]))return!0;return!1},l=function(a,
 b){for(var c in a)Object.prototype.hasOwnProperty.call(a,c)&&b(c,a[c])},za=function(a){return!!a&&("[object Arguments]"===Object.prototype.toString.call(a)||Object.prototype.hasOwnProperty.call(a,"callee"))},Aa=function(a){return Math.round(Number(a))||0},Ba=function(a){return"false"===String(a).toLowerCase()?!1:!!a},Ca=function(a){var b=[];if(sa(a))for(var c=0;c<a.length;c++)b.push(String(a[c]));return b},Da=function(a){return a?a.replace(/^\s+|\s+$/g,""):""},Ea=function(){return new Date(Date.now())},

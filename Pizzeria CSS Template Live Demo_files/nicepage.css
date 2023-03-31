@@ -1,8 +1,4 @@
-/*begin-commonstyles library*//*!
- * froala_editor v4.0.6 (https://www.froala.com/wysiwyg-editor)
- * License https://froala.com/wysiwyg-editor/terms/
- * Copyright 2014-2021 Froala Labs
- */
+
 
 .fr-clearfix::after {
   clear: both;
@@ -24944,7 +24940,7 @@ h3,
 h4,
 h5,
 h6 {
-  
+  text-align: center;
   font-family: var(--heading-font);
   
 }
